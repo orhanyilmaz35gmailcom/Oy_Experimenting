@@ -4,7 +4,7 @@ public class Oy_ex_If_Statements {
     public static void main(String[] args) {
 
 
-       /* int a= -2;
+        int a= -2;
 
         if (a>=0){
 
@@ -19,10 +19,10 @@ public class Oy_ex_If_Statements {
             System.out.println("Rakam");
         }else{
             System.out.println("rakam degil");
-        }*/
+        }
 
 
-        /*int cbasamak = -123;
+        int cbasamak = -123;
         cbasamak=Math.abs(cbasamak);
 
         if(cbasamak>99 && cbasamak<1000){
@@ -33,7 +33,7 @@ public class Oy_ex_If_Statements {
             System.out.println("dort basamaklidir");
 
         }
-        System.out.println(cbasamak);*/
+        System.out.println(cbasamak);
 
         String tek="aab";
 
