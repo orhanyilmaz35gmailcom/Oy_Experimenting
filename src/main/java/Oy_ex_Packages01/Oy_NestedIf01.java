@@ -32,31 +32,5 @@ boolean ucgenmi=aKenari+bKenari>cKenari && cKenari>Math.abs(aKenari-bKenari)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    }
+  }
 }
