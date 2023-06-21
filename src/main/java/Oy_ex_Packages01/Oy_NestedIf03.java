@@ -5,29 +5,35 @@ import java.util.Scanner;
 public class Oy_NestedIf03 {
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Bir ucgenin kenar uzunluklarini giriniz");
-        double x = Math.abs(scan.nextDouble());
-        double y = Math.abs(scan.nextDouble());
-        double z = Math.abs(scan.nextDouble());
+Scanner input  = new Scanner(System.in);
+        System.out.println("lütfen pasword giriniz");
+        String pswgirdi=input.nextLine();
+
+        if (pswgirdi.charAt(0)>='A' && pswgirdi.charAt(0)<='Z')
+
+        {
+            if (pswgirdi.charAt(0) == 'A')
+            {
+                System.out.println("gecerli pasword");
+            } else { System.out.println("gecersiz pasword buyuk harf ama A degil"); }
+
+                }else if (pswgirdi.charAt(0)>='a' && pswgirdi.charAt(0)<='z')
 
 
-        boolean ucgenmi=
-                x+y>z && z>Math.abs(x-y) &&
-                x+z>y && y>Math.abs(x-z) &&
-                y+z>x && x>Math.abs(y-z);
+                { if (pswgirdi.charAt(0) == 'z') {
+                System.out.println("gecerli pasword");
 
-if (x<=0 || y<=0 || z<=0){
-    System.out.println("gecerli uzunluk giriniz"); }
+                 } else {
+                System.out.println("gecersiz pasword kucuk ama z degil");
+                    }
 
-         else if (ucgenmi)
-    {
 
-        if (x == y && y == z || z == x ){System.out.println("eskenar ücgendir");}
-        else if (x == y || y == z || z == x) {System.out.println("ikiz kenar ucgen");}
-        else{System.out.println("cesit kenar ucgen");}
+        }else {System.out.println("hatali giris yaptiniz");}
 
-        }else{System.out.println("ucgen degil");}
+
+
+
+
 
 
 
