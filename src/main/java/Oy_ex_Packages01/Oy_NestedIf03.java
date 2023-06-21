@@ -6,36 +6,19 @@ public class Oy_NestedIf03 {
     public static void main(String[] args) {
 
 Scanner input  = new Scanner(System.in);
-        System.out.println("lütfen pasword giriniz");
-        String pswgirdi=input.nextLine();
+       System.out.println("lütfen pasword giriniz");
+       String pswgirdi=input.nextLine();
 
-        if (pswgirdi.charAt(0)>='A' && pswgirdi.charAt(0)<='Z')
+      char firstchar= pswgirdi.charAt(0);
 
-        {
-            if (pswgirdi.charAt(0) == 'A')
-            {
-                System.out.println("gecerli pasword");
-            } else { System.out.println("gecersiz pasword buyuk harf ama A degil"); }
+        if (firstchar>='A' && firstchar<='Z') { if (firstchar == 'A') {System.out.println("gecerli pasword");} else { System.out.println("gecersiz pasword buyuk harf ama A degil"); }
 
-                }else if (pswgirdi.charAt(0)>='a' && pswgirdi.charAt(0)<='z')
+            }else if (firstchar>='a' && firstchar<='z')
 
 
-                { if (pswgirdi.charAt(0) == 'z') {
-                System.out.println("gecerli pasword");
+            {if (firstchar == 'z') {System.out.println("gecerli pasword");} else {System.out.println("gecersiz pasword kucuk ama z degil");}
 
-                 } else {
-                System.out.println("gecersiz pasword kucuk ama z degil");
-                    }
-
-
-        }else {System.out.println("hatali giris yaptiniz");}
-
-
-
-
-
-
-
+            }else {System.out.println("hatali giris yaptiniz");}
 
 
 
