@@ -2,7 +2,7 @@ package Oy_ex_Packages01;
 
 import java.util.Scanner;
 
-public class Oy_NestedIf02 {
+public class Oy_ex_NestedIf02 {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
