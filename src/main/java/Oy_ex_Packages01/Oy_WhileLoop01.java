@@ -1,8 +1,8 @@
 package Oy_ex_Packages01;
 
-public class Oy_WhileLoop01 {
+/* public class Oy_WhileLoop01 {
     public static void main(String[] args) {
-      /*  Scanner input = new Scanner(System.in);
+       Scanner input = new Scanner(System.in);
         System.out.println("sayi giriniz");
         int carpim = input.nextInt();
         System.out.println(carpim + " ======>");
@@ -23,7 +23,7 @@ public class Oy_WhileLoop01 {
             i++;
 
         }
-        System.out.println(bos);*/
+        System.out.println(bos);
 
 
         String siparisler="kertenkelle";
@@ -44,4 +44,4 @@ public class Oy_WhileLoop01 {
         System.out.println(poset);
 
         }
-    }
+    }*/
